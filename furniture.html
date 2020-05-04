@@ -1,0 +1,643 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+
+  <title>Space Saving Furniture</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/furn.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div id="navbar"> 
+ <ul>
+ <li><img id="logo" src="images/l2.png"alt="logo"></li>
+  <li ><a class="active" href="khome.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Categories</a>
+    <div class="dropdown-content">
+      <a href="kitchens.html">Modular Kitchens</a>
+      <a href="ceil.html">False Ceilings</a>
+      <a href="furniture.html">Space Saving Furnitures</a>
+    </div>
+  </li>
+  <li><a href="about.html">AboutUs</a></li>
+  <li><a href="./contactus.html">ContactUs</a></li>
+<a id="login" class="button" href="sign_up.html">SignUp/Login</a>
+</ul>
+</div>
+  <br><br><br><br>
+  <p class="heading">Space Saving Furniture</p>
+  <div class="gallery-image">
+     <div class="img-box">
+      <a href="#one_details">
+      <img src=images/gc1.webp alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Queen Size Horizontal Wall Bed</p>
+          <p class="opacity-low">The perfect wall bed hardware for guest beds, small rooms and apartments.<br>
+                                 Dimensions:68-5/16"H x 86"W x 15-7/8"D (closed) x 67"D (open)<br>
+                                 Price:Rs-74900/-</p>
+        </div>
+      </div>
+    
+    </div>
+  </a>
+    <div class="img-box">
+      <a href="#two_details">
+      <img src=images/bunk1.jpg  alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Staircase Bunk Bed with Three Drawers</p>
+          <p class="opacity-low"> A safer alternative to a traditional bunk bed ladder but also includes a built in four drawer chest.<br>
+          Dimensions:64"x98"x57"<br>
+          Rs:48000/-</p>
+        </div>
+      </div>
+    </div>
+  </a>
+    <div class="img-box">
+      <a href="#three_details">
+      <img src=images/dine1.jpg  alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Compact Set 5 Piece Round Nesting Dining Table </p>
+          <p class="opacity-low"> The Zuma Collection 5 Piece Nesting Dining Set Has A Chair.<br> Dimension Of 16.5" W x 16.5" D x 28.75"<br>
+          Rs:49900/-</p>
+        </div>
+      </div>
+    </div>
+  </a>
+    <div class="img-box">
+      <a href="#four_details">
+      <img src=images/table1.jpg alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Fold Out Convertible Wall Mount Desk</p>
+          <p class="opacity-low">The wall mounted desk features 3 x bill organizers, 2 x adjustable shelves, 2 x fixed shelves and 1 x corkboard<br>
+          Product Dimensions   32 x 19.5 x 6 inches<br>
+          Rs.9000</p>
+        </div>
+      </div> 
+    </div>
+  </a>
+    <div class="img-box">
+      <a href="#five_details">
+      <img src=images/sofa1.jpg alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Convertible Sofa Set Couch Bed </p>
+          <p class="opacity-low">This sofa bed is the perfect addition to any living room, study, den or office.<br>
+                                  Price:28000/-</p>
+        </div>
+     
+      </div> 
+    </a>
+    </div>
+  
+  
+    <div class="img-box">
+      <a href="#six_details">
+      <img src=images/seat1.jpg alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Companion Cube-5 Hidden Seats</p>
+          <p class="opacity-low"> It is made for sharing with its 5 hidden seats that detach from the cube walls and stack on the nested metal bases.<br>Price:-32000/-
+          </p>
+        </div>
+      </div> 
+    </div>
+  </a>
+  </div>
+
+  <table>
+    <tbody>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+
+      <tr class="rows">
+        <td class="images" >
+          <img  class="myImg" id="myImg" src=images/queen1.webp alt="" height="150px" width="150px">
+          <img  class="myImg" id="myImg1" src=images/queen2.webp alt="" height="150px" width="150px"/>
+          <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+ <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+        </td>
+        <td class="details" id="one_details">
+                     <h2>Queen Size Horizontal Wall Bed</h2>
+
+                     Queen Size Horizontal Wall Bed include folding tube legs, which are totally concealed inside the bed cabinet when it is closed and are manually rotated over the end of the bed face.<br>                    
+                     No floor mounting required; Cabinet must be anchored to the wall to ensure safety.<br>
+                     Cabinet can be made of plycore, particle board or solid wood.<br>
+                     Maximum mattress thickness: 12"<br>
+                     Recommended for standard mattress sizes; no box spring is used.<br>
+                     Hardware kits carry a 10-Year Limited Warranty.<br>
+                     Basic Cabinet Dimensions for Side Mount Deluxe Murphy Beds:<br>
+                     Queen (46362): 68-5/16"H x 86"W x 15-7/8"D (closed) x 67"D (open)<br>
+                     <div class="price">Rs.74900-</div>
+
+                     
+        </td></tr>
+
+          <tr class="rows">
+        <td class="images">
+          <img class="myImg" id="myImg2" src=images/bunk1.jpg alt="" height="150px" width="150px" />
+          <img class="myImg" id="myImg3" src=images/bunk2.jpg  alt="" height="150px" width="150px"></td>
+           <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+ <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg3");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+        <td class="details" id="two_details">
+                     <h2>Staircase Bunk Bed with Three Drawers.</h2>
+
+                     Stair Stepper bunk bed not only provides a safer alternative to bunk bed ladder but also includes a built in four drawer chest. Our unique design allows the staircase to go on either side of the bed, allowing the customer to set up the bed whichever way works best for them. <br>
+                Specifications:<br>
+
+                Product Type: Bunk Bed<br>
+               
+                Assembly Required: Yes<br>
+                Slat Kit Included: Yes<br>
+                Dimensions:64"x98"x57"<br>
+                Weight Capacity Bottom Bed: 250 lb.<br>
+                Weight Capacity Top Bed: 170 lb.<br></div>
+
+               <div class="price">Rs:48000/-</div> 
+        </td></tr>
+
+
+
+        <tr class="rows">
+        <td class="images">
+          <img class="myImg" id="myImg4" src=images/dine1.jpg alt="" height="150px" width="150px" />
+          <img class="myImg" id="myImg5" src=images/dine2.jpg  alt="" height="150px" width="150px"></td>
+           <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg4");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+ <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg5");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+        <td class="details" id="three_details">
+                     <h2>Compact Set 5-Piece Round Nesting Dining Table & Chairs</h2>
+
+                     Compact Dining Set: The Zuma Collection 5 Piece Nesting Dining Set Has A Chair Dimension Of 16.5" W x 16.5" D x 28.75" H<br> Table 41.3" W x 41.3" D x 29.6" H<br> Assembly Required.<br>
+            Space Saver Design: This Small Dining Table Set Is Made of MDF With Veneer, Rubberwood, Vinyl And Foam With A Gray Finish.<br>
+            Modern Design: This Mid Century Modern Dining Table Set Features A Round Table That Seats Four People And Has Four Angled Upholstered Padded Dining Seats.<br>
+            Functional: This Retro Kitchen Table Set Is Ideal For Small Spaces Like A Home Or Loft. The Chairs Can Be Conveniently Tucked Straight Up To The Edge Of The Table To Manage The Space.<br>
+            Innovation, Quality, and Affordability Have Been Primary Goals Of Targeting Marketing Systems Since 1985. Trust TMS To Bring A Practical And Elegant Enrichment To Your Home.<br> </div>
+
+               <div class="price">Rs:49900/-</div> 
+        </td></tr>
+
+
+        <tr class="rows">
+        <td class="images">
+          <img class="myImg" id="myImg6" src=images/table1.jpg alt="" height="150px" width="150px" />
+          <img class="myImg" id="myImg7" src=images/table2.png alt="" height="150px" width="150px"></td>
+        <td class="details">
+           <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg6");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+ <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg7");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+                     <h2 id="four_details">Fold Out Convertible Wall Mount Desk</h2>
+
+                     Why we recommend you to choose Wooden-Life wall mounted desk for you?
+                                       - The wall mounted desk features 3 x bill organizers, 2 x adjustable shelves, 2 x fixed shelves and 1 x corkboard.<br>
+                                       - Doubled as a working surface and storage area anywhere you need it.<br>
+                                       - Wall-mounted design makes the desk more modern and convenient.<br>
+                                       - Clean look and stylish design enhances the look of the existing furniture collection.<br>
+                                       - Can be folded and closed with a safety lock when not in the use to save space.<br>
+                                       - Feature enough shelves to store essential items, books, magazines, etc.<br>
+                                       - Perfect for scrapbooking, crafting, sewing, paying bills, homework and so on.<br>
+                                       - Simple assembly process, no previous experience necessary.<br>
+                                       - Here's a blackboard to record some interesting things everyday when closed.<br>
+
+                                       - The box includes:<br>
+                                       - 1 x wall mounted desk<br>
+                                       - 1 x installation instruction<br>
+
+                                       - Item Weight   26.6 pounds<br>
+                                       - Product Dimensions   32 x 19.5 x 6 inches </div>
+
+                <div class="price">- Rs.9000</div>
+        </td></tr>
+
+
+        <tr class="rows">
+        <td class="images">
+          <img class="myImg" id="myImg8" src=images/sofa1.jpg alt="" height="150px" width="150px" />
+          <img  class="myImg" id="myImg9" src=images/sofa2.jpg alt="" height="150px" width="150px"></td>
+        <td class="details">
+           <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg8");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script> 
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg9");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+                     <h2 id="five_details">Convertible Sofa Set Couch Bed</h2>
+
+                      Product description:-<br>
+
+                        Modern Sofa Bed Sleeper Faux Leather Convertible Sofa Set Couch Bed Sleeper Chaise Lounge Furniture Vanilla White: This sofa bed is the perfect addition to any living room, study, den or office<br>With its tufted Faux Leather upholstery and classy chrome legs, this chair is modern and contemporary built with users comfort in mind, and the Chaise Lounger can be easily setup as a couch or comfortable sleeper to accommodate guests.<br>
+
+                            Features & details:<br>
+
+                            Great couch on a low <br>
+                            Modern design with comfort seating in min<br>
+                            Easy convert from sofa to lounger to chaise to sleeper<br>
+                            Sleeper dimensions: 70in. L x 30in. W x 15.4in. H<br>
+                            Chaise dimensions: 61.4in. L x 30in. W x 32in. H<br>
+                         </div>
+
+                <div class="price">- Rs.28000/-</div>
+        </td></tr>
+
+
+
+        <tr class="rows">
+        <td class="images">
+          <img class="myImg" id="myImg10" src=images/seat1.jpg alt="" height="150px" width="150px" />
+          <img  class="myImg" id="myImg11" src=images/seat2.jpg alt="" height="150px" width="150px"></td>
+        <td class="details">
+           <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg10");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script> 
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg11");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+                     <h2 id="six_details">Companion Cube:5 Hidden Seats</h2>
+
+                     Companion Cube 5 Hidden Seats Ottoman is made for sharing with your friends. This comfortable ottoman hides away in your living room or under a console as a seat and when your guests arrive you remove the padded cube seats off the base and place it on the strong nested metal bases.<br> The companion cube looks great on it’s own in your living room and is available in multiple colors.  If you want a custom finish, view the Made Per order Cube 5 in 1 option. <br>
+
+                                       Weight Capacity:<br>
+Extremely strong and well built. We have sit tested each companion portion to hold  well over 250+ lbs. 250lbs or under recommended for regular use.<br>
+
+Dimensions:<br>
+50cm tall x 55.5 length x 55.5cm width
+(19.75 inches x 21.75 inches x 21.75 inches)<br>
+This clever ottoman transforms into 5 seats measuring 18″ x 18″ x 19″ tall<br>
+
+Warranty & Returns:<br>
+Extended 500 day warranty on mechanics, far beyond what most companies offer. If you are not happy you are welcome to return the product in good condition within 7 days for a full refund minus 2 way shipping costs. Original packaging required for safe transport.</div>
+
+                <div class="price">- Rs.32000</div>
+        </td></tr>
+      </tbody>
+  </table>
+</body>
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3><a href="khome.html"><img src="images/l2.png" height="140px" width="150px"></a></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          -
+          <a href="#">About</a>
+          -
+        </p>
+
+        <p class="footer-company-name">HomeDecoR &copy; 2018</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="Address:"></i>
+          <p><span>Sector 10,Near R.A.I.T College</span> Nerul, Navi Mumbai</p>
+        </div>
+
+        <div>
+          <i class="ContactUs"></i>
+          <p>Phone:022-216775</p><br>
+          <pre>   Phone:022-2237845</pre><br><br>
+          <pre>   Mobile No:9844348547</pre>
+        </div>
+
+        <div>
+          <i class="Our Emailid"></i>
+          <p><a>Email:homedecor@gmail.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          At HomeDecor, we bring together functionality and aesthetics to provide homeowners with customised and efficient home designs. Our designers specialise in home interior designs and home décor, and help you create a home personalised to suit your lifestyle. 
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="https://www.facebook.com/"><img src="images/fb.png" class="fb" height="35px" width="35px"></a>
+          <a href="https://www.google.com"><img src="images/g.png" class="fb" height="35px" width="35px"></a>
+          <a href="https://www.twitter.com/login"><img src="images/t.png" class="fb" height="35px" width="35px"></a>
+          <a href="https://www.youtube.com/signin"><img src="images/y.jpg" class="fb" height="35px" width="35px"></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+</html>

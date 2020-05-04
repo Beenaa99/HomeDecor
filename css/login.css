@@ -1,0 +1,122 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*background: url(../mail/bg4.jpg);*/
+    
+   /* background-image: linear-gradient(300deg,#4ea3f3f3 2%, rgb(154, 207, 74) 67%, gold );*/
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(bg9.jpg);
+    background-size: cover;
+    font-weight: 450;
+}
+
+.login
+{
+    
+    color: black;
+    /*background-image: url(log1.png);*/
+    background-color: rgb(255,255,255,0.79);
+    background-size: cover;
+    
+    padding: 40px;
+    width: 350px;
+    margin: auto;
+    margin-top:80px;
+    height: 500px;
+    margin-left: 40%;
+    border-radius: 20px;
+
+}
+form{
+    width: 250px;
+    text-align: center;
+
+}
+input[type=text]
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid#fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: gray;
+    margin-left: 50px;
+    border-radius: 20px;
+    }
+
+    input[type=password]
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid#fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: gray;
+    margin-left: 50px;
+    border-radius: 20px;
+    }
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color:rgb(82, 79, 79);
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 75px;
+    font-weight: 700;
+}
+#Cont a{
+    
+    margin-left: 31PX;
+    padding: 15px;
+    color: rgb(51, 48, 48);
+}
+
+#Cont a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 20%;
+
+}
+#sign{
+    font-weight: 600;
+}
+#sign:hover{
+    color: gray;
+}
+@media screen and (max-width: 1024px )
+{
+    .login
+{
+    
+    color: black;
+    /*background-image: url(log1.png);*/
+    background-color: rgb(255,255,255,0.79);
+    background-size: cover;
+    
+    padding: 40px;
+    width: 350px;
+    margin: auto;
+    margin-top:80px;
+    height: 500px;
+    margin-left: 30%;
+    border-radius: 20px;
+
+}
+
+}
